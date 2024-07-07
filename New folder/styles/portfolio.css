@@ -1,0 +1,265 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+/* .open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* shared styles */
+.primary-name {
+    color: #FD6E0A;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    color: #474747;
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 51px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    font-size: bold;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* banners styles */
+.banner-greetings {
+    font-size: 600;
+    font-weight: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 800;
+    font-weight: 85px;
+    color: #181818;
+}
+
+.description {
+    font-size: 400;
+    font-weight: 18px;
+    color: #757575;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-content {
+    width: 585px;
+    height: 356px;
+}
+
+/* header style */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* section style */
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+
+.about {
+    background-color: #FFF8F3;
+    /* width: 1140px;
+    height: 550px; */
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 600;
+
+}
+
+.skills {
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.skill {
+    padding: 33px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+/* resume section style */
+.Resume {
+    display: flex;
+    gap: 24px;
+    /* margin-left: 180px;
+    margin-right: 180px; */
+}
+
+.resume-colum-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: #474747;
+
+}
+
+.experience-title {
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+
+}
+
+.experience-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.experience-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.Resume hr {
+    margin-top: 30px 5px;
+}
+
+.resume-header {}
+
+/* .btn-primary {
+    margin-bottom: 50px;
+    text-align: center; */
+
+}
+
+.header-of-summery {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 90px;
+    font-weight: 800px;
+    font-size: 25px;
+}
+
+.style-button {
+    background-color: #FD6E0A;
+    font-size: bold;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+
+.style-button-container {
+    text-align: center;
+}
+
+/* footer styles */
+.footer {
+    /* margin-left: 210px;
+    margin-right: 210px; */
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+    background-color: #FFF8F3;
+
+}
+
+
+
+.Connect-header {
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(24, 24, 24, 1);
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    color: #757575;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
+}
